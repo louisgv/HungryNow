@@ -1,3 +1,3 @@
 HungryNow
 =========
-(FOR #7 BACON JAM!)[https://bacongamejam.org]
+[FOR #7 BACON JAM!](https://bacongamejam.org)
