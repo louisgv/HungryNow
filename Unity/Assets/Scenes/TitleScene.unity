@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 34df02f00468d7b47b2aeefb7a5ad1c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1cd6bd9a7ed4b154fa245facf9aca3fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &159843002
 Transform:
@@ -161,7 +161,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: b8fa2545bcdc30042aa2fe1c24bf4b70, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4284040438
+    rgba: 4281029354
 --- !u!23 &253109002
 Renderer:
   m_ObjectHideFlags: 0
@@ -234,7 +234,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 676a405448ab75f49a986ceb09a87bd4, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4281611410
+    rgba: 4279049133
 --- !u!23 &269914575
 Renderer:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ GameObject:
   - 4: {fileID: 435735884}
   - 114: {fileID: 435735883}
   m_Layer: 0
-  m_Name: GameFlowManager
+  m_Name: ScriptManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4014c52fa457c0a429340da33f35218b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 3
+  countOffset: 2
 --- !u!4 &435735884
 Transform:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .219607845, g: .219607845, b: .219607845, a: .0431372561}
+  m_BackGroundColor: {r: .282352954, g: .282352954, b: .282352954, a: .0431372561}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -465,7 +465,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 34df02f00468d7b47b2aeefb7a5ad1c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 023411d8e1ac0b94b87e8de814c08ac8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1107616142
 Transform:
@@ -512,6 +512,30 @@ Prefab:
     - target: {fileID: 400000, guid: 41ebf5a460d70064fa307f027444987c, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 41ebf5a460d70064fa307f027444987c, type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: .282352954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 41ebf5a460d70064fa307f027444987c, type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: .282352954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 41ebf5a460d70064fa307f027444987c, type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: .282352954
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.r
+      value: .917647064
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.g
+      value: .917647064
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.b
+      value: .917647064
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ebf5a460d70064fa307f027444987c, type: 2}
