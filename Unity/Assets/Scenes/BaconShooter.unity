@@ -2918,7 +2918,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2080405045}
-  - 114: {fileID: 2080405046}
   m_Layer: 0
   m_Name: 2 - ForeGound
   m_TagString: Untagged
@@ -2939,18 +2938,3 @@ Transform:
   - {fileID: 1859066040}
   - {fileID: 1331109974}
   m_Father: {fileID: 796548011}
---- !u!114 &2080405046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2080405044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f0fe5b91c8175845aea48558b43ab2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollingSpeed: {x: 2, y: 2}
-  direction: {x: -1, y: 0}
-  isLinkedToCamera: 0
-  isLooping: 0
